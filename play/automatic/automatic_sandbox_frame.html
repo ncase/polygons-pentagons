@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<title>OH MY GOSH, PENTAGONS</title>
+	<link href="automatic.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	a{
+		color: #888;
+	}
+	a:hover{
+		color: #bbb;
+	}
+	</style>
+</head>
+<body>
+	<iframe id="frame" src="automatic_sandbox.html"
+			style="position:relative;left:10px;display:block;margin:25px auto" width="1050" height="600"></iframe>
+	<div style="color:#fff; text-align:center;">
+		pentagon remix created by <a href="https://github.com/dncnmcdougall">Duncan McDougall</a>
+	</div>
+</body>
+</html>
+<script>
+window.onload = function(){
+	var frame = document.getElementById("frame");
+	frame.contentWindow.IS_IN_SIGHT = true;
+}
+</script>
